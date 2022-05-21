@@ -60,12 +60,35 @@ require_once('connect.php')
         <p>
             <?=$resume?>
         </p>
+        </br>
         </div>
-        <div class="centre">
-        <a class="bouton" href="<?=$lien?>">
-            En savoir plus
-</a>
-</div>
+            <?php
+            if($id == "6"){?>
+                </br>
+                <div class="centre">
+                    <a class="bouton" href="<?=$lien?>performance.pdf">
+                    En savoir plus sur le livrable traitant de la performance
+                    </a>
+                </div>
+                </br>
+                </br>
+                <div class="centre">
+                    <a class="bouton" href="<?=$lien?>profilstypes.pdf">
+                    En savoir plus sur le livrable traitant des profils types
+                    </a>
+                </div>
+            <?php
+            } else {
+            ?>
+            <div class="centre">
+                <a class="bouton" href="<?=$lien?>">
+                En savoir plus
+                </a>
+            </div>
+            <?php
+            }
+            ?>
+        </div>
 
     </main>
     <?php }?>

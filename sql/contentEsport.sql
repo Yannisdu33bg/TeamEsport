@@ -18,14 +18,14 @@ insert into jalon(
     ),
     ("Regarder l'état de la salle", -- titre
     "ordinateur.jpg", -- nom image
-    "Nous avons dû tout d'abord mettre à jour l'ensemble des logiciels sur les ordinateurs. Puis nous avons pu essayer plusieurs jeu sur les ordinateurs", -- resume/description
+    "Nous avons dû tout d'abord mettre à jour l'ensemble des logiciels sur les ordinateurs. Puis nous avons pu essayer plusieurs jeux sur les ordinateurs", -- resume/description
     "12 novembre", -- date de début puis fin
     "17 décembre",
     "../fichierslivrables/etatsalle.pdf"
     ),
         ("Envoyer un formulaire aux joueurs intéressés", -- titre
     "formulaire.jpg", -- nom image
-    "Ce formulaire questionne les personnes sur leur envie de de faire partie de notre équipe", -- resume/description
+    "Ce formulaire questionne les personnes sur leur envie de faire partie d'une équipe de l'ENSC sur le jeu League of Legends", -- resume/description
     "1 janvier", -- date de début puis fin
     "4 février",
     "https://docs.google.com/forms/d/1CXUSVzTgcyu6K9bT7LY4EgQRkRnBwvmysKlVmh0Kj3Q/prefill"
@@ -46,16 +46,16 @@ insert into jalon(
     ) ,
         ("Faire des livrables pour mieux organiser les équipes", -- titre
     "livrables.jpg", -- nom image
-    "Nous avons réaliser plusieurs livrables qui permetten de mieux cerner les critères qui permettent de créer une équipe performante.", -- resume/description
+    "Nous avons réalisé plusieurs livrables concernant les critères qui permettent de créer une équipe performante.", -- resume/description
     "1 janvier", -- date de début puis fin
     "1 mai",
     "../fichierslivrables/livrablePersonnalite/"
     )  ,
         ("Verifier nos hypothèses", -- titre
     "validification.jpg", -- nom image
-    "Nous avons valider les hypothèses faites dans nos livrables grâce à un questionnaire", -- resume/description
+    "Nous avons réalisé un questionnaire afin de vérifier les hypothèses émises dans les livrables", -- resume/description
     "1 mai", -- date de début puis fin
     "20 mai",
-    ""
+    "https://docs.google.com/forms/d/e/1FAIpQLSf2EDo2Kow9spyTirpBysK65vszrgBlxobgQK-CIofoepw_sQ/viewform?vc=0&c=0&w=1&flr=0"
     ) 
     ;
