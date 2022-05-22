@@ -116,7 +116,9 @@ require_once('fichiersPHP/connect.php')
             <p>
             Former une équipe de joueurs est un enjeu sociétal qui touche un public divers et varié. Ce projet n’exclue personne et s’oppose aux discriminations raciales, de sexe, de culture etc. La prise en compte des principes de diversité culturelle et d’égalité des chances est sous-entendue, car aucun jugement de valeur n’est attribué aux futurs joueurs souhaitant faire partie du projet.
             </br>
+            </br>
 Quant à la restauration du matériel informatique, les choix les plus judicieux ont été effectués. L’acquisition des nouveaux ordinateurs permet de satisfaire la demande, mais elle permet également de rajeunir le matériel pour une très longue durée. L’idée est d’investir dans du matériel de qualité ce qui permettra de le renouveler moins souvent et donc d’économiser des ressources matérielles de différentes formes. De plus, les ordinateurs étant fixes et non portables, il sera beaucoup plus simple de changer un composant précis en cas de besoin. Cela serait plus compliqué sur un ordinateur portable, où au moindre problème matériel, il est souvent nécessaire de changer de machine. Cette solution permet d’effectuer des économies supplémentaires.
+        </br>
         </br>
 Notre projet s'inscrit donc dans la politique de Développement Durable et de Responsabilité Sociale définie par le plan vert.
             </p>
