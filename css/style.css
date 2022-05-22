@@ -12,6 +12,19 @@ h1 {
     display: inline;
 }
 
+#lienplanvert{
+    color:rgb(17, 175, 11);
+}
+.planvert {
+    color:rgb(17, 175, 11);
+    margin-left:12em;
+    margin-bottom:1em;
+}
+
+h3 + p{
+    color:rgb(17, 175, 11);
+}
+
 header {
     padding-left: 5%;
     padding-right: 1%;

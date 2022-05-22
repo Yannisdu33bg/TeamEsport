@@ -9,14 +9,90 @@ require_once('connect.php')
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../css/style.css" rel="stylesheet">
     <title> Team E-Sport</title>
+    
 </head>
 
 <body>
+
     <a id="direcindex" href="../index.php">
         <?php
         include('Header.php');
         ?>
     </a>
+    <style>
+        * {
+/* Here i made the margin and padding  0 */
+  margin: 0; 
+  
+    padding: 0;
+}
+  
+.navbar {
+    display: flex;
+  
+/* This is used to make the navbar sticky, So that the
+    navbar stays at the top part even if we scroll */
+    position: sticky; 
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+  
+/*it specifies the mouse cursor to be displayed
+    when it is pointed over the element */
+    cursor: pointer;
+}
+  
+.nav-list {
+    display: flex;
+}
+  
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+  
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+#accueil {
+    color: red;
+    font-size: 20px;
+}
+  
+.nav-list li a:hover {
+    color: black;
+}
+  
+.rightNav {
+    width: 50%;
+    text-align: right;
+}
+  
+.background {
+    background-color: purple;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+.nav-list li a:active {
+    color: green;
+}
+  
+      </style>
+        <nav class="navbar background">
+            <ul class="nav-list">
+                <li><a id = "accueil" href="../index.php">ACCUEIL</a></li>
+                <li><a href="PageJalon.php?id=<?= 1 ?>">CAHIER DES CHARGES</a></li>
+                <li><a href="PageJalon.php?id=<?= 2 ?>">ETAT DE LA SALLE</a></li>
+                <li><a href="PageJalon.php?id=<?= 3 ?>">RECHERCHE DE JOUEURS</a></li>
+                <li><a href="PageJalon.php?id=<?= 4 ?>">COMMANDES DES PC</a></li>
+                <li><a href="PageJalon.php?id=<?= 5 ?>">CONSTRUCTION DES EQUIPES</a></li>
+                <li><a href="PageJalon.php?id=<?= 6 ?>">LIVRABLES ET HYPOTHESES</a></li>
+                <li><a href="PageJalon.php?id=<?= 7 ?>">VERIFICATION DES HYPOTHESES</a></li>
+                <li><a id = "lienplanvert" href="../index.php#planvert">PLAN VERT</a></li>
+            </ul>
+        </nav>
 
     <?php
     if (isset($_GET['id']))
