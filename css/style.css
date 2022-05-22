@@ -23,6 +23,7 @@ h1 {
 
 h3 + p{
     color:rgb(17, 175, 11);
+    font-size: 20px;
 }
 
 header {
@@ -30,6 +31,10 @@ header {
     padding-right: 1%;
     color: #ffffff;
     background: linear-gradient(to bottom, #070bb3, #380087);
+}
+#zefooter{
+    color:rgb(223, 69, 27);
+    font-size: 1em;
 }
 
 main {

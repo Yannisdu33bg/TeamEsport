@@ -122,7 +122,9 @@ Notre projet s'inscrit donc dans la politique de Développement Durable et de Re
             </p>
         </div>
     </main>
-
+    <?php
+    include('fichiersPHP/footer.php');
+    ?>
 </body>
 
 </html>

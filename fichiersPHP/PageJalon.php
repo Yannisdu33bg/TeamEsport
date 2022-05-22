@@ -168,7 +168,9 @@ require_once('connect.php')
 
     </main>
     <?php }?>
-
+    <?php
+    include('footer.php');
+    ?>
 </body>
 
 </html>
